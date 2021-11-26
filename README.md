@@ -13,8 +13,9 @@ public class Main
 		maxRow(arr);
 	}
 	public static void maxRow(int[][] arr){
-	    int max=arr[0][0];
+	   
 	    for(int i=0;i<arr.length;i++){
+	     int max=arr[0][0];
 	        for(int j=0;j<arr[0].length;j++){
 	            if (arr[i][j]>max)
 	                max=arr[i][j];
